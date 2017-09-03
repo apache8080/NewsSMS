@@ -1,0 +1,21 @@
+<html>
+<link rel="stylesheet" type="text/css" href="login.css">
+<form action="createAccount.php" method="post">
+<fieldset>
+<legend>Create a New News SMS Account</legend>
+<p>Enter your info</p>
+<label>Username:</label><input type="text" name="uname" required>
+<label>Password:</label><input type="password" name="pass" required>
+<label>Email:</label><input type ="text" name="email" required>
+<label>Phone Number:</label><input type ="text" name="phone" required>
+<label>Carrier:</label>
+<select name="carrier">
+  <option value="messaging.sprintpcs.com">Sprint</option>
+  <option value="vtext.com">Verizon</option>
+  <option value="txt.att.net">AT&T</option>
+</select>
+<input type="submit">
+</fieldset>
+</form>
+
+</html>
